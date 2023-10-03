@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Designo Agency Website Challenge</title>
+</head>
+<body class="body-about">
+  <header class="header">
+    <a href="/"><img src="assets/shared/desktop/logo-dark.png" alt="DESIGNO logo" class="header__img logo"></a>
+    <img src="assets/shared/mobile/icon-hamburger.svg" alt="Open menu" id="open_menu">
+    <img src="assets/shared/mobile/icon-close.svg" alt="Close Menu" id="close_menu">
+    <div class="header__modal" id="modal">
+      <ul class="container-links">
+        <li class="link-list"><a href="about.html" class="header__link">Our Company</a></li>
+        <li class="link-list"><a href="locations.html" class="header__link">Locations</a></li>
+        <li class="link-list"><a href="contact.html" class="header__link">Contact </a></li>
+      </ul>
+    </div>
+  </header>
+  <main class="main main--no_margin">
+    <article class="about__article">
+      <div class="container-about">
+        <picture class="container-about__picture">
+          <source media="(min-width: 992px)" srcset="assets/about/desktop/image-about-hero.jpg">
+          <source media="(min-width: 768px)" srcset="assets/about/tablet/image-about-hero.jpg">
+          <img src="assets/about/mobile/image-about-hero.jpg" alt="Designo team" class="container-about__img">
+        </picture>
+        <section class="card card--dark card--aboutDark">
+          <h3 class="card__text card__text--title card__text--title--dark">About us</h3>
+          <p class="card__text card__text--text card__text--text--dark">Founded in 2010, we are a creative agency that produces lasting results for our clients. 
+            We’ve partnered with many startups, corporations, and nonprofits alike to craft designs 
+            that make real impact. We’re always looking forward to creating brands, products, and 
+            digital experiences that connect with our clients' audiences.</p>
+        </section>
+      </div>
+      <div class="container-about">
+        <picture class="container-about__picture">
+          <source media="(min-width: 992px)" srcset="assets/about/desktop/image-world-class-talent.jpg">
+          <source media="(min-width: 768px)" srcset="assets/about/tablet/image-world-class-talent.jpg">
+          <img src="assets/about/mobile/image-world-class-talent.jpg" alt="Ideas" class="container-about__img">
+        </picture>
+        <section class="card card--light card--aboutLight">
+          <h3 class="card__text card__text--title card__text--title--light">World-class talent</h3>
+          <p class="card__text card__text--text card__text--text--light">We are a crew of strategists, problem-solvers, and technologists. Every design is thoughtfully 
+            crafted from concept to launch, ensuring success in its given market. We are constantly updating 
+            our skills in a myriad of platforms.</p>
+          <p class="card__text card__text--text card__text--text--light">Our team is multi-disciplinary and we are not merely interested in form — content and meaning 
+            are just as important. We give great importance to craftsmanship, service, and prompt delivery. 
+            Clients have always been impressed with our high-quality outcomes that encapsulates their 
+            brand’s story and mission.</p>
+        </section>
+      </div>
+    </article>
+    <article class="locations">
+      <section class="locations__container">
+        <img src="assets/shared/desktop/illustration-canada.svg" alt="Canada draw" class="locations__canada">
+        <p class="locations__text">Canada</p>
+        <a href="locations.html" class="article-link article-link--dark">See location</a>
+      </section>
+      <section class="locations__container">
+        <img src="assets/shared/desktop/illustration-australia.svg" alt="Australia draw" class="locations__australia">
+        <p class="locations__text">Australia</p>
+        <a href="locations.html" class="article-link article-link--dark">See location</a>
+      </section>
+      <section class="locations__container">
+        <img src="assets/shared/desktop/illustration-united-kingdom.svg" alt="United Kingdom draw" class="locations__uk">
+        <p class="locations__text">United Kingdom</p>
+        <a href="locations.html" class="article-link article-link--dark">See location</a>
+      </section>
+    </article>
+    <div class="container-about">
+      <picture class="container-about__picture">
+        <source media="(min-width: 992px)" srcset="assets/about/desktop/image-real-deal.jpg">
+        <source media="(min-width: 768px)" srcset="assets/about/tablet/image-real-deal.jpg">
+        <img src="assets/about/mobile/image-real-deal.jpg" alt="More ideas" class="container-about__img">
+      </picture>
+      <section class="card card--light card--aboutLight">
+        <h3 class="card__text card__text--title card__text--title--light">The real deal</h3>
+        <p class="card__text card__text--text card__text--text--light">  As strategic partners in our clients’ businesses, we are ready to take on any challenge as our own.
+          Solving real problems require empathy and collaboration, and we strive to bring a fresh perspective to every
+          opportunity. We make design and technology more accessible and give you tools to measure success.</p>
+        <p class="card__text card__text--text card__text--text--light">  We are visual storytellers in appealing and captivating ways. By combining business and marketing strategies, 
+          we inspire audiences to take action and drive real results.</p>
+      </section>
+    </div>
+    <div class="main__contact-link main__contact-link--whit_margin">
+      <p class="contact-link__text contact-link__text--title">Let’s talk about your project</p>
+      <p class="contact-link__text contact-link__text--text">Ready to take it to the next level? Contact us today and find out how our expertise can help your business grow.</p>
+      <a href="contact.html" class="article-link">GET IN TOUCH</a>
+    </div>
+  </main>
+  <footer class="container-footer container-footer--margin">
+    <div class="footer">
+      <a href="/"><img src="assets/shared/desktop/logo-light.png" class="footer__img logo" alt="logo company"></a>
+      <hr class="footer__hr">
+      <nav class="footer__nav">
+        <a href="about.html" class="footer__link">Our company</a>
+        <a href="locations.html" class="footer__link">Locations</a>
+        <a href="contact.html" class="footer__link">Contact</a>
+      </nav>
+      <address class="footer__container">
+        <div class="footer__address">
+          <h4 class="footer__address__text footer__address__text--title">Designo Central Office</h4>
+          <p class="footer__address__text footer__address__text--text">3886 Wellington Street</p>
+          <p class="footer__address__text footer__address__text--text">Toronto, Ontario M9C 3J5</p>
+        </div>
+        <div class="footer__address">
+          <p class="footer__address__text footer__address__text--title">Contact Us (Central Office)</p>
+          <p class="footer__address__text footer__address__text--text">P : +1 253-863-8967</p>
+          <p class="footer__address__text footer__address__text--text">M : contact@designo.co</p>
+        </div>
+      </address>
+      <ul class="footer__container-RRSS">
+        <li class="footer__linkRRSS"><a href="https://www.facebook.com" target="_blank"><img src="./assets/shared/desktop/icon-facebook.svg" alt="Link facebook"></a></li>
+        <li class="footer__linkRRSS"><a href="https://www.youtube.com" target="_blank"><img src="./assets/shared/desktop/icon-youtube.svg" alt="Link youtube"></a></li>
+        <li class="footer__linkRRSS"><a href="https://twitter.com/home" target="_blank"><img src="./assets/shared/desktop/icon-twitter.svg" alt="Link twitter"></a></li>
+        <li class="footer__linkRRSS"><a href="https://www.pinterest.com" target="_blank"><img src="./assets/shared/desktop/icon-pinterest.svg" alt="Link pinterest"></a></li>
+        <li class="footer__linkRRSS"><a href="https://www.instagram.com" target="_blank"><img src="./assets/shared/desktop/icon-instagram.svg" alt="Link instagram"></a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="scripts/menu.js"></script>
+</body>
+</html>
